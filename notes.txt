@@ -5,3 +5,11 @@ React Properties(props)
 when we are adding them as components we can create custom attributes to that component element and when we call this function it receives an object with these attributes name:values as keys and values of the object. so we can dynamically create components using diff data when we are including them as html component elements by passing diff data through custom attributes.check the Note component
 
 for example we can't include className attribute in to the <Note /> element  there itself because in that case it will assume that we are trying to add another custom property className instead of recognizing as a JSX attribute. so html/jsx attrs should always go in the html elements and whatever attrs we add in our custom components will be treated as custom properties
+
+Added React dev tools extension to chrome, shows a react component wise reactDOM tree to easily identify the components and their props.we need this special react dev tools to see the actual props object that a component has access to. and this tools will filter out html elements in our component to only show the child components so that we can focus on the react based components and the data and we can easily debug . to see those html native elements also in reactDOM tree go to setting and switch off the filter type. the extension icon will be in red color if the app is in development mode and blue color if it is in production mode.
+
+Generating components using loops or using array fns that return array then we need to add a property named key which should have a unique value so that reactDOM doesn't have problem when creating virtual DOM with these elements that are being generated as an array in a loop. saved notes on this in video lecture. revisit
+
+this key prop will not be accessible directly using props.key in the code where we call the corresponding fn of this component we will get undefined. so if we want this value we need to create a separate property with the same value. this key property is unaccessible to us to use, we can only set that value of this key property can't access it directly.
+
+Mapping Data to components Practice lecture review.
