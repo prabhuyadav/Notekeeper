@@ -1,0 +1,1 @@
+jsx file extension is for some websites and editors to style the syntax accordingly but the executing and compiling that happens doesn't differ at all from that of a js extension so it doesn't matter that much if we keep all the extensions as js instead of jsx. index.js by convention is kept js and the components by conventions are kept jsx
