@@ -7,7 +7,9 @@ function App() {
   const htmlApp = (
     <div>
       <Header />
-      <Note />
+      <Note noteTitle="Test" noteBody="This is a test note" />
+      <Note noteTitle="Intro" noteBody="Intro to React JS" />
+      <Note noteTitle="Props" noteBody="This is React properties example" />
       <Footer />
     </div>
   );
