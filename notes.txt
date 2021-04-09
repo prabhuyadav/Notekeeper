@@ -13,3 +13,16 @@ Generating components using loops or using array fns that return array then we n
 this key prop will not be accessible directly using props.key in the code where we call the corresponding fn of this component we will get undefined. so if we want this value we need to create a separate property with the same value. this key property is unaccessible to us to use, we can only set that value of this key property can't access it directly.
 
 Mapping Data to components Practice lecture review.
+
+Using React Hooks to make our React app interactive and dynamic based on user operations. example lecture and docs review on state hook using the useState fn that react gives us
+
+onSubmit event on the form element and it's default behavior of page reloading when a button inside this form is clicked  
+
+Class components(classes) vs Functional components(Hooks) - using classes is another way of creating components in react. but hooks i.e functional way is introduced recently to make the code easier to understand and shorter. using functional way with hooks is the best way of creating components.
+we can't use hooks i.e useState() fn inside of a component which is created using class.
+
+Complex State - setting Object as state values and changing that using setter and  synthetic event. notes saved - important revisit
+
+we can use the spread operator on an object also not just array. big note saved on setting object keys using variables using the new array syntax. revisit
+
+Managing component tree and changing parent component state from child component. - very important lecture. revisit definitely
