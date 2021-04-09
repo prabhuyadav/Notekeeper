@@ -26,3 +26,7 @@ Complex State - setting Object as state values and changing that using setter an
 we can use the spread operator on an object also not just array. big note saved on setting object keys using variables using the new array syntax. revisit
 
 Managing component tree and changing parent component state from child component. - very important lecture. revisit definitely
+
+Add/Delete note functionalities implemented using above concepts.
+
+installed material UI package and using built in react components to style our app better by importing these components from the package. check docs
